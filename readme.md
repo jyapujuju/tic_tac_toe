@@ -5,5 +5,5 @@ check  [this](https://jyapujuju.github.io/tic_tac_toe/) online now
 - [ ] show result in div not in console 
 - [ ] center the content 
 - [ ] add title 
-- [ ] say who is who ? example ram is x 
+- [ ] say who is who ? example player 1 is x 
 - [ ] count wins 
