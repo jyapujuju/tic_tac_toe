@@ -51,7 +51,7 @@ $(document).ready(function() {
         reload_div();
         count = 0;
     }
-    else if ( count < 8){
+    else if ( count < 9){
     }
     else {
       console.log("tie");
