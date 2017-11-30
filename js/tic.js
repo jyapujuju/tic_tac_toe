@@ -25,6 +25,7 @@ $(document).ready(function() {
       $("#1").val() !== '' ){
         console.log($("#1").val() + ' win');
         reload_div();
+        count = 0;
     }
     else if (
       (($("#2").val() === $("#5").val() && $("#5").val() === $("#8").val()) ||
@@ -34,28 +35,28 @@ $(document).ready(function() {
       $("#5").val() !== '' ) {
         console.log($("#5").val() + ' win');
         reload_div();
-
+        count = 0;
     }
     else if (
       ($("#3").val() === $("#6").val() && $("#3").val() === $("#9").val()) && //check whether button 3,6,9 are equal or third column is same
       $("#6").val() !== '') {
         console.log($("#3").val() + ' win');
         reload_div();
-
+        count = 0;
     }
     else if (
       ($("#7").val() === $("#8").val() && $("#7").val() === $("#9").val()) && //check whether button 7,8,9 are equal or third row is same
       $("#7").val() !== '') {
         console.log($("#7").val() + ' win');
         reload_div();
-
+        count = 0;
     }
     else if ( count < 8){
     }
     else {
       console.log("tie");
       reload_div();
-
+      count = 0;
     }
   }
   function reload_div(){
