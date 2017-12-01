@@ -6,10 +6,12 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>tic tac toe</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   </head>
   <body>
       <div class="d-flex align-items-center flex-column justify-content-center">
+        <h3>Tic Tac Toe</h3>
         <div class="cell">
           <button id="1" class="button btn btn-secondary" type="button" >-</button>
           <button id="2" class="button btn btn-secondary" type="button" >-</button>
@@ -25,8 +27,12 @@
           <button id="8" class="button btn btn-secondary" type="button" >-</button>
           <button id="9" class="button btn btn-secondary" type="button" >-</button>
         </div>
-      </div>
+        <div><span class="pr-4">X is P1</span><span>O is P2</span></div>
+        <div id="result"><span id="result_p1" class="pr-4">P1 win 0 game</span><span id="result_p2">P2 win 0 game</span></div>
+        <h2 id="score"></h2>
+        <h2 id="turn">P1 turn</h2>
 
+      </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
       <script src="js/tic.js" charset="utf-8"></script>
   </body>
